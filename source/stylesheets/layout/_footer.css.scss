@@ -1,1 +1,30 @@
-// Your footer style
+#footer {
+background-color: #333333;
+color: gray;
+font-size: 18px;
+padding: 30px 15px 30px 15px;
+}
+
+.footer_content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#footer a{
+  color: gray;
+  opacity:0.9;
+}
+
+#footer a:hover{
+  opacity: 1;
+  text-decoration:none;
+}
+
+.fa{
+font-size: 25px;
+}
+
+.fa:hover{
+font-size: 30px;
+}
